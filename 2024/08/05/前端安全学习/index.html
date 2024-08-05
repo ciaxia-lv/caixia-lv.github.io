@@ -19,23 +19,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
+    <meta name="description" content="前端安全学习记录前端安全的背景和重要性随着互联网技术的飞速发展，我们逐渐迈入了信息时代。然而，随之而来的是用户数据泄露和隐私泄露的风险。前端安全成为我们的首要任务。为了保护用户数据，确保用户的隐私不受侵犯，我们必须加强前端安全。前端安全常见的问题  XSS（跨站脚本攻击 英语：Cross-Site Scripting） CSRF（跨站请求伪造 英语：Cross-site request forge">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Learning Records">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2024/08/05/%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8%E5%AD%A6%E4%B9%A0/index.html">
 <meta property="og:site_name" content="Learning Records">
+<meta property="og:description" content="前端安全学习记录前端安全的背景和重要性随着互联网技术的飞速发展，我们逐渐迈入了信息时代。然而，随之而来的是用户数据泄露和隐私泄露的风险。前端安全成为我们的首要任务。为了保护用户数据，确保用户的隐私不受侵犯，我们必须加强前端安全。前端安全常见的问题  XSS（跨站脚本攻击 英语：Cross-Site Scripting） CSRF（跨站请求伪造 英语：Cross-site request forge">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2024/08/05/%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8%E5%AD%A6%E4%B9%A0/images/img_3.png">
+<meta property="article:published_time" content="2024-08-05T09:30:41.435Z">
+<meta property="article:modified_time" content="2024-08-05T10:08:58.905Z">
 <meta property="article:author" content="Lvcaixia">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2024/08/05/%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8%E5%AD%A6%E4%B9%A0/images/img_3.png">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2024/08/05/%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8%E5%AD%A6%E4%B9%A0/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2024/08/05/%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8%E5%AD%A6%E4%B9%A0/","path":"2024/08/05/前端安全学习/","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Learning Records</title>
+<title> | Learning Records</title>
   
 
 
@@ -65,7 +71,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Learning Records</h1>
+      <p class="site-title">Learning Records</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -87,7 +93,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -100,6 +106,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95"><span class="nav-number">1.</span> <span class="nav-text">前端安全学习记录</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -129,16 +136,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/05/%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8%E5%AD%A6%E4%B9%A0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -152,13 +160,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Learning Records">
+      <meta itemprop="name" content=" | Learning Records">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/08/05/%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8%E5%AD%A6%E4%B9%A0/" class="post-title-link" itemprop="url">未命名</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -181,8 +189,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="前端安全学习记录"><a href="#前端安全学习记录" class="headerlink" title="前端安全学习记录"></a>前端安全学习记录</h1><p><strong>前端安全的背景和重要性</strong><br>随着互联网技术的飞速发展，我们逐渐迈入了信息时代。然而，随之而来的是用户数据泄露和隐私泄露的风险。前端安全成为我们的首要任务。为了保护用户数据，确保用户的隐私不受侵犯，我们必须加强前端安全。<br><strong>前端安全常见的问题</strong></p>
+    <div class="post-body" itemprop="articleBody"><h1 id="前端安全学习记录"><a href="#前端安全学习记录" class="headerlink" title="前端安全学习记录"></a>前端安全学习记录</h1><p><strong>前端安全的背景和重要性</strong><br>随着互联网技术的飞速发展，我们逐渐迈入了信息时代。然而，随之而来的是用户数据泄露和隐私泄露的风险。前端安全成为我们的首要任务。为了保护用户数据，确保用户的隐私不受侵犯，我们必须加强前端安全。<br><strong>前端安全常见的问题</strong></p>
 <ul>
 <li>XSS（跨站脚本攻击 英语：Cross-Site Scripting）</li>
 <li>CSRF（跨站请求伪造 英语：Cross-site request forgery）</li>
@@ -199,7 +206,6 @@
 <p><strong>点击劫持</strong><br>○ 概念：攻击者伪造合法网页将恶意网页覆盖在诱导用户点击的合法网页上，实现恶意操作。<br>○ 场景思考：<br>■ 钓鱼攻击：攻击者通过伪装成合法网站或服务，将恶意内容隐藏在看似无害的链接或按钮上，引诱用户点击，以获取用户的敏感信息。<br>■ 窃取用户登录信息：攻击者使用透明的框架覆盖在正常的登录页面上，用户误以为是正常的登录界面，输入账号密码后，实际上是被攻击者所接收。<br>■ 窃取用户隐私信息：攻击者将恶意代码嵌入在网页的某个元素上，这个元素的位置与一个常用的功能按钮或表单重叠，当用户点击该按钮或表单时，实际上点击了恶意代码，从而窃取用户的隐私信息。<br>○ 如何避免：<br>■ 使用脚本来防御：可以使用 JavaScript 来防范点击劫持，比如通过检查是否在顶层窗口打开页面、使用脚本检查页面是否被嵌入到 iframe 中等。<br>■ 提高用户安全意识：教育用户有关点击劫持的风险，以便他们能够识别和避免点击劫持的攻击。<br><strong>数据传输安全</strong><br>○ 概念：使用 HTTP 传输的数据容易被窃取和篡改。<br>○ 典型案例：<br>■ 未加密敏感信息传输：使用 HTTP 传输的数据，如用户名、密码、信用卡号等敏感信息，如果未经过适当的加密保护，被窃取和破解。<br>○ 如何避免：<br>■ 使用 HTTPS 协议：HTTPS 通过使用 SSL&#x2F;TLS 协议对传输的数据进行加密，可以防止数据在传输过程中被窃取和篡改。<br>■ 避免使用明文密码和敏感信息。<br>■ 使用 jsencrypt 对密码 手机号码登信息进行加密<br><strong>登录暴力破解</strong><br>○ 概念：通过多次尝试不同的密码来强行进入受保护的账户或系统<br>○ 常见实现方式<br>■ Brute Force Attack（暴力破解攻击）：攻击者通过尝试所有可能的用户名和密码组合来登录目标账户。这通常会使用自动化程序来加速尝试过程。<br>■ Dictionary Attack（字典攻击）：攻击者使用预先准备好的密码字典来尝试登录目标账户。密码字典包含常见的用户名和密码组合，以及其他可能的组合。<br>■ Credential Stuffing（凭证填充）：攻击者使用从一个被泄露的网站获得的用户名和密码组合来尝试登录其他网站账户。许多人在不同的网站上使用相同的用户名和密码，使得凭证填充攻击成为可能。<br>■ Password Spraying（密码喷洒）：攻击者针对目标系统使用少量的常见用户名，然后对每个用户名尝试一组预先选择好的常见密码。这种攻击方式减少了暴力破解的尝试次数，从而更不容易被检测出来。<br>○ 如何避免：<br>■ 使用强密码：选择一个复杂、不易被猜测的密码。使用组合字符、数字和特殊符号，并确保密码长度较长。避免使用常见的短密码，比如”123456”或”password”。<br>■ 启用两步验证（2FA）：启用两步验证可以为登录提供额外的安全层。这需要用户在输入用户名和密码之后，再通过其他方式（如手机验证码、指纹识别等）进行身份验证。<br>■ 限制登录尝试次数：通过设置登录尝试次数上限和登录锁定时间，在黑客进行多次尝试之后暂时锁定账户。这样可以防止暴力破解攻击。<br><strong>三方开源组件</strong><br>○ 概念：是指在软件开发过程中，使用的第三方开源组件可能存在安全漏洞或风险，可能会导致整个系统的安全受到威胁。<br>○ 典型案例：Antd 圣诞失控事件也正是源自于此，开发者别出心裁地在框架代码中埋下了一个会在圣诞节当天触发的彩蛋：一个不曾提前告知、无法手动禁止、并且“潜伏”了 106 天之久的按钮“惊喜”。<br>○ 场景思考：使用三方组件的时候要尽量谨慎。<br>○ 如何防御：手动检查这些第三方代码有没有安全问题是个苦差事，主要是因为应用依赖的这些组件数量众多，手工检查太耗时，好在有自动化的工具可以使用，比如：<br>■ NPM Audit(需要，npm 安装依赖，检测 package-lock.json 文件)<br>■ Snyk  特点：<br>○ 全局安装 npm install -g snyk ，<br>○ 进行授权 snyk auth，○ enpm 下可用，<br>○ 执行检测：snyk test<br><strong>Https 的问题</strong><br>○ 为了保护信息在传输过程中不被泄露，保证传输安全，使用 TLS 或者通俗的讲使用 HTTPS 已经是当今的标准配置了。然而事情并没有这么简单，即使是服务器端开启了 HTTPS，也还是存在安全隐患，黑客可以利用 SSL Stripping这种攻击手段，强制让 HTTPS 降级回 HTTP，从而继续进行中间人攻击。问题的本质在于浏览器发出去的第一次请求就被攻击者拦截了下来并做了修改，根本不给浏览器和服务器进行 HTTPS 通信的机会。大致过程如下，用户在浏览器里输入 URL 的时候往往不是从 https:&#x2F;&#x2F;开始的，而是直接从域名开始输入，随后浏览器向服务器发起HTTP 通信，然而由于攻击者的存在，它把服务器端返回的跳转到 HTTPS 页面的响应拦截了，并且代替客户端和服务器端进行后续的通信。由于这一切都是暗中进行的，所以使用前端应用的用户对此毫无察觉。<br>○ 如何防御：办法是使用 HSTS（HTTP Strict Transport Security）nginx 配置 add_header Strict-Transport-Security max-age&#x3D;31536000<br><strong>Iframe</strong><br>○ frame 在给我们的页面带来更多丰富的内容和能力的同时，也带来了不少的安全隐患。因为 iframe 中的内容是由第三方来提供的，默认情况下他们不受我们的控制，他们可以在 iframe 中运行 JavaScirpt 脚本、弹出对话框等等，这可能会破坏前端用户体验。<br>○ 如何让自己的网站不被其他网站的 iframe 引用？<br>■ js 的防御方案：将下面这段代码放到网站页面的标签前，这样别人在通过 iframe 框架引用你的网站网页时，浏览器会自动跳转到你的网站所引用的页面上。demo5<br>■ 使用防止网页被 iframe：X-FRAME-OPTIONS 是微软提出的一个 http 头，专门用来防御利用iframe 嵌套的点击劫持攻击。<br>● DENY &#x2F;&#x2F; 拒绝任何域加载<br>● SAMEORIGIN &#x2F;&#x2F; 允许同源域下加载<br>● ALLOW-FROM &#x2F;&#x2F; 可以定义允许 frame 加载的页面地址<br>○ 如何禁止被使用的 iframe 对当前网站某些操作？<br>■ 现在有一场景：我的网站需要 iframe 引用某网站，但是不想被该网站操作 DOM、不想加载某些 js（广告、弹框等）、当前窗口被强行跳转链接等，我们可以设置 sandbox 属性:<br>● allow-same-origin：允许被视为同源，即可操作父级 DOM 或 cookie 等<br>● allow-top-navigation：允许当前 iframe 的引用网页通过 url 跳转链接或加载<br>● allow-forms：允许表单提交● allow-scripts：允许执行脚本文件<br>● allow-popups：允许浏览器打开新窗口进行跳转<br>● “”：设置为空时上面所有允许全部禁止<br><strong>CDN 劫持</strong><br>○ CDN 劫持是指攻击者利用某种手段窃取或篡改内容分发网络（CDN）的域名解析，将用户的请求重定向到恶意的服务器上。这种攻击可以导致用户访问到虚假的网站、下载到恶意软件或者泄露敏感信息。<br>○ 前端可以做的：<br>■ SRI 全称 Subresource Integrity - 子资源完整性，是指浏览器通过验证资源的完整性（通常从CDN 获取）来判断其是否被篡改的安全特性。通过给 link 标签或者 script 标签增加 integrity属性即可开启 SRI 功能，比如 &lt;script type&#x3D;”text&#x2F;javascript” src&#x3D;”&#x2F;&#x2F;s.url.cn&#x2F;xxxx&#x2F;aaa.js”integrity&#x3D;”sha256-xxx sha384-yyy” crossorigin&#x3D;”anonymous”&gt;</script><br>■ 开启 SRI 能有效保证页面引用资源的完整性，避免恶意代码执行<br>■ 浏览器如何处理 SRI<br>● 当浏览器在 script 或者 link 标签中遇到 integrity 属性之后，会在执行脚本或者应用样式表之前对比所加载文件的哈希值和期望的哈希值。<br>● 当脚本或者样式表的哈希值和期望的不一致时，浏览器必须拒绝执行脚本或者应用样式表，并且必须返回一个网络错误说明获得脚本或样式表失败。<br>○ CDN 劫持场景比较复杂，前端能做的比较有限，最终要的还是从服务器端根本解决劫持的问题。<br>○ 网站管理员可以采取以下措施：<br>■ 使用 HTTPS 协议：通过使用 HTTPS 协议，可以加密通信，防止被中间人劫持或篡改数据。<br>■ 增强域名解析的安全性：采用安全的域名解析服务，如 DNSSEC（Domain Name System SecurityExtensions），可以提供域名解析的完整性和身份验证。<br>■ 监控域名解析配置：定期审查域名解析的配置，发现异常情况及时处理。特别关注域名解析的TTL（Time to Live）值，以防止其被非法修改。<br>■ 限制 CDN 节点访问权限：只允许特定的 IP 地址或特定的网络访问 CDN 节点，以减少攻击面。<br>■ 进行安全测试：定期进行安全测试，检测 CDN 的安全漏洞和配置问题，及时修复。总结：前端安全是保护前端代码和用户数据安全的重要措施，需要在开发中加入相应的防御措施并不断更新和完善，以保障系统的安全性。
  </p>
 
-      
     </div>
 
     
@@ -207,109 +213,22 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/06/30/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%BE%93%E5%85%A5%E6%96%87%E6%9C%AC%E5%AE%9E%E7%8E%B0@%E4%BA%BA/" rel="prev" title="移动端输入文本实现@人员">
+                  <i class="fa fa-angle-left"></i> 移动端输入文本实现@人员
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/06/30/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%BE%93%E5%85%A5%E6%96%87%E6%9C%AC%E5%AE%9E%E7%8E%B0@%E4%BA%BA/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Lvcaixia">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Learning Records">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Learning Records">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/06/30/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%BE%93%E5%85%A5%E6%96%87%E6%9C%AC%E5%AE%9E%E7%8E%B0@%E4%BA%BA/" class="post-title-link" itemprop="url">移动端输入文本实现@人员</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2024-06-30 20:49:01" itemprop="dateCreated datePublished" datetime="2024-06-30T20:49:01+08:00">2024-06-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-08-05 17:29:13" itemprop="dateModified" datetime="2024-08-05T17:29:13+08:00">2024-08-05</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="移动端输入文本实现-人员"><a href="#移动端输入文本实现-人员" class="headerlink" title="移动端输入文本实现@人员"></a>移动端输入文本实现@人员</h1><p><img src="/images/img.png" alt="需求演变"></p>
-<ol>
-<li>首先@人按钮的出现<br> <strong>监听:</strong> window.VisualViewport(当前页面的视觉视口)属性，resize事件,window.innerHeight 和visualViewport.height<br> <strong>window.innerHeight：</strong> window返回窗口内部高度<br> <strong>visualViewport.height：</strong> 当前页面视觉高度，除去键盘的高度<br> <strong>event.srcElement.scrollingElement.scrollTop:</strong> 获取页面滚动高度<br> <strong>getSelection：</strong> 表示用户选择的文本范围或光标的当前位置<br> <strong>getRangeAt（index）</strong> 获取选中范围的起始位置<br> <strong>selectAllChildren：</strong> 将指定节点的所有子代添加到当前选择中<br> <strong>Selection.collapseToEnd()</strong> 方法的作用是取消当前选区，并把光标定位在原选区的最末尾处，如果此时光标所处的位置是可编辑的，且它获得了焦点，则光标会在原地闪烁。</li>
-</ol>
-<p><strong>安卓和ios出现按钮的处理方式不同</strong></p>
-<ul>
-<li>安卓<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">height.<span class="property">value</span> != viewHeight.<span class="property">value</span></span><br><span class="line">selectButton.<span class="property">style</span>.<span class="property">bottom</span> = <span class="number">0</span></span><br></pre></td></tr></table></figure></li>
-<li>ios<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">height.<span class="property">value</span> != viewHeight.<span class="property">value</span></span><br><span class="line">selectButton.<span class="property">style</span>.<span class="property">top</span> = visualViewport.<span class="property">height</span> - <span class="number">46</span> + <span class="string">&quot;px&quot;</span></span><br></pre></td></tr></table></figure>
-<strong>安卓和ios隐藏按钮</strong><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">height.value == viewHeight.value</span><br></pre></td></tr></table></figure></li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">  css样式</span><br><span class="line">span.<span class="property">my</span>-<span class="title class_">VueTribute</span>-span &#123;</span><br><span class="line">    user-<span class="attr">select</span>: text;</span><br><span class="line">    <span class="attr">display</span>:inline;</span><br><span class="line">    <span class="attr">margin</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attr">border</span>: none;</span><br><span class="line">    vertical-<span class="attr">align</span>: bottom; </span><br><span class="line">    pointer-<span class="attr">events</span>: none;</span><br><span class="line">    &#125; </span><br><span class="line">span.<span class="property">my</span>-<span class="title class_">VueTribute</span>-<span class="attr">span</span>:before &#123; </span><br><span class="line">    <span class="attr">content</span>: <span class="title function_">attr</span>(data-name); </span><br><span class="line">    <span class="attr">color</span>: #487AFF; </span><br><span class="line">    pointer-<span class="attr">events</span>: auto;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>实现enter添加下一条</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;div</span><br><span class="line">:ref=<span class="string">&quot;(el) =&gt; concludes(el, index)&quot;</span></span><br><span class="line"><span class="keyword">class</span>=<span class="string">&quot;minutesContent&quot;</span></span><br><span class="line">:contenteditable=<span class="string">&quot;configContext.height != 0&quot;</span> :placeholder=<span class="string">&quot;handlePlaceholder(item, index)&quot;</span></span><br><span class="line">:<span class="keyword">class</span>=<span class="string">&quot;[ configContext.selectIndex == index ? &#x27;conclude-content-bg&#x27; : &#x27;conclude-content&#x27; ]&quot;</span> </span><br><span class="line">@keydown.<span class="property">enter</span>=<span class="string">&quot;(event) =&gt; addRow(event, index)&quot;</span></span><br><span class="line">@keyup.<span class="property">delete</span>=<span class="string">&quot;(event) =&gt; deleteRow(event, item, index)&quot;</span> </span><br><span class="line">@input=<span class="string">&quot;(e) =&gt; InputCCC(e, item, index)&quot;</span></span><br><span class="line">@click=<span class="string">&quot;(e) =&gt; clickItem(e, index)&quot;</span></span><br><span class="line">@focus=<span class="string">&quot;getInput(&#x27;getInputValue&#x27;, &#x27;focus&#x27;, index)&quot;</span> @blur=<span class="string">&quot;getInput(&#x27;getInputValue&#x27;, &#x27;blur&#x27;, index)&quot;</span></span><br><span class="line">v-html=<span class="string">&quot;item.styleText&quot;</span> &gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">动态 ref</span><br><span class="line">const concludes = (el: any, index: any) =&gt; &#123; configContext.boxRefs[index] = el</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">function resizeHandler() &#123; </span><br><span class="line">    const parentNode: any = document.querySelector(&quot;.ma-minutes-content&quot;)</span><br><span class="line">    const newBoxHeight: any = parentNode.offsetHeight -         configContext.boxHeight </span><br><span class="line">    const terminal: any = terminalType() </span><br><span class="line">    const selectButton: any = document.querySelector(&quot;.ignore-selectButton&quot;) </span><br><span class="line">    configContext.viewHeight = visualViewport.height</span><br><span class="line">    if ( terminal == &quot;iphone&quot; &amp;&amp; configContext.height + newBoxHeight - configContext.viewHeight &gt; 100 )&#123;</span><br><span class="line">        configContext.hidShow = true selectButton.style.top = visualViewport.height - 46 + &quot;px&quot;</span><br><span class="line">        setTimeout(() =&gt; &#123; </span><br><span class="line">        window.scrollTo(0, 0) &#125;, 100) </span><br><span class="line">        return</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    if ( terminal == &quot;iphone&quot; &amp;&amp; configContext.height == configContext.viewHeight ) &#123; </span><br><span class="line">      configContext.hidShow = false return</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    if ( terminal == &quot;android&quot; &amp;&amp; configContext.height != configContext.viewHeight ) &#123; </span><br><span class="line">        selectButton.style.bottom = 0 configContext.hidShow = true          </span><br><span class="line">        return </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    if ( terminal == &quot;android&quot; &amp;&amp; configContext.height == configContext.viewHeight ) &#123;</span><br><span class="line">    console.log(&quot;安卓隐藏&quot;) </span><br><span class="line">    configContext.hidShow = false</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">/** getSelection：表示用户选择的文本范围或光标的当前位置 getRangeAt（index）获取选中范围的起始位置 </span><br><span class="line">selectAllChildren：将指定节点的所有子代添加到当前选择中 Selection.collapseToEnd()方法的作用是取消当前选区，并把光标定位在原选区的最末尾处， 如果此时光标所处的位置是可编辑的，且它获得了焦点，则光标会在原地闪烁。 */ </span><br><span class="line">function clickInsert(params: any) &#123;</span><br><span class="line">    if (position === &quot;&quot;) &#123; // 如果div没有光标，则在div内容末尾插入 </span><br><span class="line">    const div = document.getElementById(&quot;inputContent&quot;) div?.focus() //光标定位在末尾 </span><br><span class="line">    const range = window.getSelection()</span><br><span class="line">    range?.selectAllChildren(div as Node)</span><br><span class="line">    range?.collapseToEnd() </span><br><span class="line">    position = range?.getRangeAt?.(0) </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">// 创建一个元素</span><br><span class="line">const span = document.createElement(&quot;template&quot;)</span><br><span class="line">// 插入的标签内容</span><br><span class="line">span.innerHTML = `&lt;p class=&quot;my-VueTribute-span&quot; data-name=&quot;@$&#123;params.userName&#125;&quot;&gt; &lt;/p&gt; ` </span><br><span class="line">// 将标签插入 </span><br><span class="line">position.insertNode(span.content) </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">function handScroll(event: any) &#123;</span><br><span class="line">let selectButton: any = document.querySelector(&quot;.ignore-selectButton&quot;) // event.srcElement.scrollingElement.scrollTop: 获取页面滚动高度 </span><br><span class="line">    if (hidShow.value) &#123;</span><br><span class="line">        selectButton.style.top = viewHeight.value +         event.srcElement.scrollingElement.scrollTop - 46 + &quot;px&quot;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<img src="images/img_1.png" title="@实现图" width=250 height=550>
-<img src="images/img_2.png" title="不添加监听滚动条事件" width=250 height=550>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
